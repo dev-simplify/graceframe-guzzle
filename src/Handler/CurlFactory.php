@@ -4,6 +4,7 @@ namespace GuzzleHttp\Handler;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Promise\FulfilledPromise;
+use GuzzleHttp\Promise\RejectedPromise;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\LazyOpenStream;
 use GuzzleHttp\TransferStats;
